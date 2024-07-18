@@ -1,0 +1,24 @@
+{
+  "id": "samples_mymod1",
+  "name": "Traduction FR",
+  "author": "Simon Capillon",
+  "totalConversion": "false",
+  "utility": "false",
+  "version": "0.01",
+  "description": "Traduction française du jeu Starsector",
+  "gameVersion": "0.97a-RC11",
+  "replace": [
+    "data/strings/descriptions.csv",
+    "data/strings/tips.json",
+    "data/strings/strings.json",
+    "data/strings/tooltips.json",
+    "data/campaign/abilities.csv",
+    "data/campaign/rules.csv",
+    "data/campaign/commodities.csv",
+    "data/campaign/industries.csv",
+    "data/campaign/market_conditions.csv",
+    "data/campaign/reports.csv",
+    "data/campaign/special_items.csv",
+    "data/campaign/submarkets.csv"
+  ]
+}

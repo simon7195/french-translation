@@ -1,0 +1,124 @@
+{
+  "codex": {
+    "damage_kinetic": {
+      "title": "Dommages cinétiques",
+      "body": "Les dommages cinétiques sont efficaces contre les boucliers, mais faibles contre l'armure."
+    },
+    "damage_highexplosive": {
+      "title": "Dommages à haute explosion",
+      "body": "Les dommages à haute explosion sont efficaces contre l'armure, mais faibles contre les boucliers."
+    },
+    "damage_fragmentation": {
+      "title": "Dommages par fragmentation",
+      "body": "Les dommages par fragmentation sont très faibles contre l'armure et les boucliers. Cependant, les armes infligeant des dommages par fragmentation ont généralement un DPS très élevé, ce qui les rend dévastatrices contre les cibles légèrement blindées et non protégées telles que les chasseurs légers et les missiles.\n\nIls peuvent également être très efficaces contre un vaisseau dont l'armure a été endommagée lors d'un combat."
+    },
+    "damage_energy": {
+      "title": "Dommages énergétiques",
+      "body": "Les dommages énergétiques sont tout aussi efficaces contre les boucliers et l'armure."
+    },
+    "damage_other": {
+      "title": "Autres dommages",
+      "body": "Cette arme est spéciale. En réalité, si vous voyez ceci, c'est probablement un bug."
+    }
+  },
+  "warroom": {
+    "pause": {
+      "title": "Pause",
+      "body": "Met le jeu en pause."
+    },
+    "play": {
+      "title": "Reprendre",
+      "body": "Reprend le jeu."
+    },
+    "combatTime": "Temps écoulé lorsque les deux flottes sont en contact l'une avec l'autre.\n\nLe temps de performance maximale des renforts est réduit de la moitié du temps de combat."
+  },
+  "fleetScreen": {
+    "tooltipCaptain": {
+      "title": "Assigner un capitaine",
+      "body": "Assignez un capitaine (vous-même ou un officier) à ce vaisseau. Le vaisseau bénéficiera des compétences du capitaine."
+    },
+    "tooltipAdmin": {
+      "title": "Assigner un administrateur",
+      "body": "Assignez un administrateur (ou vous-même) pour gouverner cette colonie, qui bénéficiera ensuite des compétences de l'administrateur assigné."
+    },
+    "tooltipAdminNonPlayer": {
+      "title": "Administrateur",
+      "body": "Cette colonie n'est gouvernée par aucun administrateur notable."
+    },
+    "tooltipBuy": {
+      "title": "Acheter",
+      "body": "Acheter ce %s pour %d crédits."
+    },
+    "tooltipSell": {
+      "title": "Vendre",
+      "body": "Vendre ce %s pour %d crédits."
+    },
+    "tooltipTake": {
+      "title": "Prendre",
+      "body": "Prendre ce %s."
+    },
+    "tooltipGive": {
+      "title": "Stockage",
+      "body": "Transférer ce %s de votre flotte. Sa disponibilité au combat ne sera pas modifiée tant qu'il est en stockage."
+    },
+    "tooltipMothball": {
+      "title": "Mettre en réserve",
+      "body": "Les %ss mis en réserve ne peuvent pas être utilisés en combat ou réparés, et ne fournissent aucune capacité de carburant, de cargaison ou de personnel.\n\nMettre un vaisseau en réserve réduira sa disponibilité au combat à zéro ; le restaurer nécessitera du temps et des fournitures."
+    },
+    "tooltipUnmothball": {
+      "title": "Mettre en réserve",
+      "body": "Les %ss mis en réserve ne peuvent pas être utilisés en combat ou réparés, et ne fournissent aucune capacité de carburant, de cargaison ou de personnel.\n\nRestaurer la disponibilité au combat de ce vaisseau après l'avoir sorti de la réserve consommera %s fournitures sur une période de %s jour(s)."
+    },
+    "tooltipScuttle": {
+      "title": "Saborder",
+      "body": "Dépouiller ce %s de tout ce qui est utile, en récupérant %d fournitures, %d carburant et %d machines lourdes."
+    },
+    "tooltipSuspendRepairs": {
+      "title": "Suspendre les réparations et la récupération",
+      "body": "Empêche ce %s d'effectuer des réparations ou de récupérer sa disponibilité au combat. Les réparations complètes et la récupération de la disponibilité au combat consommeront environ %s fournitures sur une période de %s jours si elles sont autorisées."
+    },
+    "tooltipSuspendRepairsNotNeeded": {
+      "title": "Suspendre les réparations et la récupération",
+      "body": "Empêche ce %s d'effectuer des réparations ou de récupérer sa disponibilité au combat. Ce %s n'a actuellement pas besoin de réparations ou de récupération de la disponibilité au combat."
+    },
+    "tooltipRefit": {
+      "title": "Refonte",
+      "body": "Modifier les armes et les modules de coque équipés sur ce vaisseau."
+    },
+    "tooltipLogisticalPriority": {
+      "title": "Priorité logistique",
+      "body": "Les %ss ayant une priorité logistique ont la première sélection de l'équipage et des fournitures disponibles pour les réparations."
+    },
+    "tooltipCrewElite": {
+      "title": "Élite",
+      "body": "Équipez ce %s avec le meilleur personnel disponible."
+    },
+    "tooltipCrewVeteran": {
+      "title": "Vétéran",
+      "body": "Équipez ce %s uniquement avec des membres d'équipage vétérans ou inférieurs, si possible."
+    },
+    "tooltipCrewRegular": {
+      "title": "Régulier",
+      "body": "Équipez ce %s uniquement avec des membres d'équipage réguliers ou inférieurs, si possible."
+    },
+    "tooltipCrewGreen": {
+      "title": "Novice",
+      "body": "Équipez ce %s uniquement avec des membres d'équipage novices, si possible."
+    },
+    "tooltipCrewBar": {
+      "title": "",
+      "body": "Fraction de l'équipage sur ce %s."
+    }
+  },
+  "logistics": {
+    "marines": "Nombre de marines dans la flotte.",
+    "crew": "Nombre de membres d'équipage dans la flotte, et le nombre nécessaire pour satisfaire les exigences minimales de tous les vaisseaux de la flotte.",
+    "supplies": "Fournitures disponibles et utilisation de fournitures par jour.",
+    "credits": "Crédits disponibles."
+  },
+  "misc": {
+    "jumpPointNormal": "Les points de saut peuvent être utilisés pour passer de l'hyperespace à l'espace normal. Certains points de saut mènent également à d'autres destinations.",
+    "jumpPointStar": "Le puits de gravité d'une étoile est suffisamment profond pour permettre une sortie unidirectionnelle de l'hyperespace. Cependant, son utilisation est extrêmement difficile et dangereuse.",
+    "jumpPointGasGiant": "Le puits de gravité d'une géante gazeuse est souvent suffisamment profond pour permettre une sortie unidirectionnelle de l'hyperespace."
+  }
+}

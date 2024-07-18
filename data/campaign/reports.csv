@@ -1,0 +1,331 @@
+event_type,event_stage,p,target_rel,channels,subject,summary,assessment,image,icon,tags,sound_id,implementation notes
+food_shortage,possible,,,player_intel,Pénurie alimentaire possible $onOrAt $market,L'analyse des renseignements obtenus à partir des communications interceptées et d'autres sources suggère qu'une pénurie alimentaire est susceptible de survenir sur le marché d'ici quelques semaines.,Augmentation des prix des denrées alimentaires et réduction de la stabilité du marché en cas de pénurie.,,graphics/icons/markets/food_shortage.png,,,
+food_shortage,likely,,,player_intel,Pénurie alimentaire probable $onOrAt $market,L'analyse des renseignements obtenus à partir des communications interceptées et d'autres sources suggère qu'une pénurie alimentaire est presque certaine de survenir sur le marché d'ici quelques semaines.,Augmentation des prix des denrées alimentaires et réduction de la stabilité du marché en cas de pénurie.,,graphics/icons/markets/food_shortage.png,,,
+food_shortage,likely,0.5,HOSTILE,hegemony_internal,Pénurie alimentaire probable $onOrAt $market,Ce rapport indique qu'une pénurie alimentaire est presque certaine de survenir sur le marché et conseille les unités de la région sur les mesures qui pourraient être prises pour maximiser son impact.,"Flotte de secours susceptible d'être envoyée depuis un système stellaire proche ; l’intercepter prolongerait la pénurie et déstabiliserait davantage le marché.
+
+Vendre de la nourriture sur le marché noir va accroître les troubles post-pénurie.",,graphics/icons/markets/food_shortage.png,,,
+food_shortage,likely,0.5,FRIENDLY,hegemony_internal,Pénurie alimentaire probable $onOrAt $market,Ce rapport indique qu'une pénurie alimentaire est presque certaine de se produire sur le marché et conseille aux unités de se tenir prêtes à fournir de l'aide.,Livrer rapidement suffisamment de nourriture au marché réduira la durée et l’impact de la pénurie.,,graphics/icons/markets/food_shortage.png,,,
+food_shortage,start,,,news,Pénurie alimentaire $onOrAt $market,"Le rapport discute de la pénurie alimentaire sur le marché et fournit une perspective équilibrée, mais ne parvient pas à identifier une cause spécifique. Le coupable le plus probable semble être une erreur en cascade dans un système logistique en détérioration.","Augmentation des prix des aliments sur le marché ou sur le marché.
+
+Stabilité réduite de $stabilityPenalty.
+
+Environ $neededFood unités de nourriture nécessaires pour mettre fin à la pénurie.
+Flotte de secours susceptible d'être envoyée depuis un système stellaire proche.
+
+Impact accru sur la réputation de la vente de nourriture. Vendre de la nourriture sur le marché noir va accroître les troubles post-pénurie.",,graphics/icons/markets/food_shortage.png,prices,,
+food_shortage,start,0.25,HOSTILE,hegemony_public,Pénurie alimentaire critique $onOrAt $market,Le rapport indique que la pénurie alimentaire sur le marché est inhabituellement grave et accuse l'administration de MarketFaction d'avoir précipité une crise humanitaire.,"Augmentation des prix des aliments sur le marché ou sur le marché.
+
+Stabilité réduite de $stabilityPenalty.
+
+Environ $neededFood unités de nourriture nécessaires pour mettre fin à la pénurie.
+
+Flotte de secours susceptible d'être envoyée depuis un système stellaire proche.
+
+Impact accru sur la réputation de la vente de nourriture. Vendre de la nourriture sur le marché noir va accroître les troubles post-pénurie.",,graphics/icons/markets/food_shortage.png,prices,,
+food_shortage,start,0.25,SELF,hegemony_public,Pénurie alimentaire présumée $onOrAt $market,Le rapport nie catégoriquement toute rumeur de pénurie alimentaire sur le marché et encourage les citoyens responsables à faire leur part en dénonçant toute personne soupçonnée de répandre des rumeurs malveillantes.,"Augmentation des prix des aliments sur le marché ou sur le marché.
+
+Stabilité réduite de $stabilityPenalty.
+
+Environ $neededFood unités de nourriture nécessaires pour mettre fin à la pénurie.
+
+Flotte de secours susceptible d'être envoyée depuis un système stellaire proche.
+
+Impact accru sur la réputation de la vente de nourriture. Vendre de la nourriture sur le marché noir va accroître les troubles post-pénurie.",,graphics/icons/markets/food_shortage.png,prices,,
+food_shortage,warning_relief,,,player_intel,Pénurie alimentaire $onOrAt $market : les secours s'organisent sur $reliefMarket,L'analyse du trafic de communication indique qu'une flotte de secours est en cours d'organisation sur $reliefMarket dans $reliefSystem et sera envoyée à $market dans un avenir proche.,"La flotte transporte suffisamment de nourriture pour mettre fin à la pénurie.
+
+Si la flotte n'arrive pas comme prévu, la situation sur le marché $ se déstabilisera encore davantage.",,graphics/icons/markets/food_shortage.png,,,
+food_shortage,warning_relief,0.5,HOSTILE,"hegemony_internal,
+tritachyon_internal,
+sindrian_diktat_internal",Pénurie alimentaire $onOrAt $market : les secours s'organisent sur $reliefMarket,Le rapport indique qu'une flotte de secours est en cours d'organisation sur $reliefMarket dans $reliefSystem et qu'elle devrait démarrer d'ici quelques semaines.,"La flotte transporte suffisamment de nourriture pour mettre fin à la pénurie.
+
+Si la flotte n'arrive pas comme prévu, la situation sur le marché $ se déstabilisera encore davantage.",,graphics/icons/markets/food_shortage.png,,,
+food_shortage,warning_relief,0.5,FRIENDLY,"hegemony_internal,
+tritachyon_internal,
+sindrian_diktat_internal",Pénurie alimentaire $onOrAt $market : les secours s'organisent sur $reliefMarket,Le rapport indique qu'une flotte de secours est en cours d'organisation sur $reliefMarket dans $reliefSystem et qu'elle devrait démarrer d'ici quelques jours. Il est conseillé aux unités à proximité de s’assurer que la flotte arrive à destination en toute sécurité.,"La flotte transporte suffisamment de nourriture pour mettre fin à la pénurie.
+
+Si la flotte n'arrive pas comme prévu, la situation sur le marché $ se déstabilisera encore davantage.",,graphics/icons/markets/food_shortage.png,,,
+food_shortage,relief_sent,,,news,Pénurie alimentaire $onOrAt $market : secours envoyés depuis $reliefMarket,Une flotte de secours est en cours depuis $reliefMarket dans le système $reliefSystem et devrait arriver dans $marketSystem $eta.,"La flotte transporte suffisamment de nourriture pour mettre fin à la pénurie.
+
+Si la flotte n'arrive pas comme prévu, la situation sur le marché $ se déstabilisera encore davantage.",,graphics/icons/markets/food_shortage.png,,,
+food_shortage,relief_unavailable,,,news,Pénurie alimentaire $onOrAt $market : les conditions se détériorent,"Bien qu'il y ait eu au début des spéculations selon lesquelles un monde voisin pourrait être en mesure d'envoyer de l'aide, il semble qu'aucune aide de ce type ne soit prévue.",Troubles augmentés de $stabilityPenaltyRelief.,,graphics/icons/markets/food_shortage.png,prices,,
+food_shortage,relief_aborted,,,news,Pénurie alimentaire $onOrAt $market : la flotte de secours refoulée,"La flotte de secours de $reliefMarket a été attaquée alors qu'elle se dirigeait vers $market, a subi des pertes importantes et a été contrainte de rebrousser chemin. La pénurie alimentaire persiste sans relâche.",Troubles augmentés de $stabilityPenaltyRelief.,,graphics/icons/markets/food_shortage.png,prices,,
+food_shortage,end_relief_arrived,,,news,Pénurie alimentaire $onOrAt $market : la flotte de secours est arrivée,La flotte de secours de $reliefMarket est arrivée et la pénurie alimentaire de $onOrAt $market est terminée.,"Troubles augmentés de $stabilityPenaltyEnd.
+
+Les prix des aliments $onOrAt $market sont revenus à leurs niveaux normaux.",,graphics/icons/markets/food_shortage.png,prices,,
+food_shortage,relief_lost,,,news,Pénurie alimentaire $onOrAt $market : flotte de secours perdue,La flotte de secours de $reliefMarket n'est pas arrivée à destination et la pénurie alimentaire persiste.,Troubles augmentés de $stabilityPenaltyRelief.,,graphics/icons/markets/food_shortage.png,prices,,
+food_shortage,end_expired,,,news,Pénurie alimentaire $onOrAt $marché terminé,"Le rapport indique que la pénurie alimentaire $onOrAt $market est désormais terminée. Divers facteurs, notamment un rationnement strict, des mesures anti-émeutes et l'arrivée de plusieurs commerçants indépendants, sont tous reconnus pour avoir mis fin à la pénurie.","Troubles augmentés de $stabilityPenaltyExpire.
+Les prix des aliments $onOrAt $market sont revenus à leurs niveaux normaux.",,graphics/icons/markets/food_shortage.png,prices,,
+food_shortage,end_player,,,news,Pénurie alimentaire $onOrAt $marché terminé,"Le rapport indique que la pénurie alimentaire $onOrAt $market est désormais terminée. On attribue à l'arrivée d'une flotte de secours commandée par $playerName la fin de la pénurie, même si un administrateur local n'a pas tardé à souligner sa propre contribution.","Troubles augmentés de $stabilityPenaltyEnd.
+Les prix des aliments $onOrAt $market sont revenus à leurs niveaux normaux.",,graphics/icons/markets/food_shortage.png,prices,,
+food_shortage,end_player_black,,,news,Pénurie alimentaire $onOrAt $marché terminé,"Le rapport indique que la pénurie alimentaire $onOrAt $market est désormais terminée. Malheureusement, une grande partie de la distribution de nourriture a été gérée par des éléments criminels, renforçant leur position et portant atteinte aux autorités locales, tant financièrement qu'aux yeux de la population.","Troubles augmentés de $stabilityPenaltyEndBlack.
+
+Les prix des aliments $onOrAt $market sont revenus à leurs niveaux normaux.",,graphics/icons/markets/food_shortage.png,,,
+food_shortage,end_player_fast,,,news,Pénurie alimentaire $onOrAt $marché terminé,Le rapport indique que la pénurie alimentaire $onOrAt $market est désormais terminée. L'arrivée opportune d'une flotte de secours commandée par $playerName a permis de mettre fin rapidement à la pénurie et d'atténuer ses effets à long terme.,"Aucune agitation n’augmente $onOrAt $market.
+
+Les prix des aliments $onOrAt $market sont revenus à leurs niveaux normaux.",,graphics/icons/markets/food_shortage.png,prices,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+# player smuggling investigation,,,,,,,,,,,,
+investigation_smuggling,start_smuggling,,,secure_comm,Enquête sur la contrebande $onOrAt $market,Un message crypté provenant d'un de vos contacts dans le monde souterrain de $market vous avertit que les autorités de $theMarketFaction ont lancé une enquête sur la récente activité de contrebande.,"Si l’enquête révèle que vous êtes impliqué dans la contrebande, $theMarketFaction deviendra inhospitalier à votre égard.
+
+$InvestigatorPost $investigatorName est chargé de mener l'enquête. Vous pourrez peut-être influencer le résultat en contactant $invHimOrHer.
+
+L'enquête durera $durée.",,,important,,
+investigation_smuggling,clear_smuggling,,,player_intel_always,Enquête sur la contrebande $onOrAt $market - validée,"L'enquête sur la contrebande de $marketFaction est terminée et il semble que votre nom ait été blanchi - ou, du moins, qu'il n'y ait aucune preuve concluante pour prouver votre implication.",La relation avec $theMarketFaction n'est pas affectée.,,,important,,
+investigation_smuggling,clear_smuggling_bribe,,,player_intel_always,Enquête sur la contrebande $onOrAt $market - validée,"L'enquête sur la contrebande de $marketFaction a été achevée conformément à votre « arrangement spécial » avec $investigatorName, et cette tache particulière sur votre réputation a été effacée.","Le pot-de-vin versé à $InvestigatorPost $investigatorName a été efficace.
+
+La relation avec $theMarketFaction n'est pas affectée.",,,important,,
+investigation_smuggling,player_guilty_smuggling,,,player_intel_always,Enquête sur la contrebande $onOrAt $market - reconnu coupable,L'enquête de $marketFaction a conclu que vous étiez effectivement impliqué dans la récente activité de contrebande.,,,,important,,
+# faction good reputation investigation,,,,,,,,,,,,
+investigation_goodrep,start_goodrep,,,secure_comm,Enquête de $MarketFaction sur vos liens avec $OtherFaction,Un message crypté d'un de vos contacts $onOrAt $market vous prévient que les autorités de $theMarketFaction ont lancé une enquête sur vos liens avec $theOtherFactionLong.,"$TheMarketFaction peut devenir hostile à votre égard à la suite de l'enquête.
+
+$InvestigatorPost $investigatorName $onOrAt $market est chargé de mener l'enquête. Vous pourrez peut-être influencer le résultat en contactant $invHimOrHer.
+
+L'enquête durera $durée.",,,important,,
+investigation_goodrep,clear_goodrep,,,player_intel_always,Enquête $MarketFaction sur vos liens avec $OtherFaction - résolue,L'enquête de $marketFaction sur vos liens avec $theOtherFactionLong est terminée et vous avez été autorisé à agir contre les intérêts de $marketFaction.,La relation avec $theMarketFaction n'est pas affectée.,,,important,,
+investigation_goodrep,clear_goodrep_bribe,,,player_intel_always,Enquête $MarketFaction sur vos liens avec $OtherFaction - résolue,"L'enquête de $marketFaction sur vos liens avec $theOtherFactionLong a été achevée conformément à votre « arrangement spécial » avec $investigatorName, et vous avez été autorisé à agir à l'encontre des intérêts de $marketFaction.","Le pot-de-vin versé à $InvestigatorPost $investigatorName a été efficace.
+
+La relation avec $theMarketFaction n'est pas affectée.",,,important,,
+investigation_goodrep,player_guilty_goodrep,,,player_intel_always,Enquête de $MarketFaction sur vos liens avec $OtherFaction - reconnu coupable,L'enquête de $marketFaction sur vos liens avec $theOtherFactionLong a conclu que vous avez agi à l'encontre des intérêts de $theMarketFaction. Il est clair que $theMarketFaction vous traitera avec une méfiance particulière.,,,,important,,
+,,,,,,,,,,,,
+# comm sniffer investigation,,,,,,,,,,,,
+investigation_comm_sniffer,start_comm_sniffer,,,player_intel_always,Contact perdu avec le renifleur de communication à $name,Le renifleur de communications que vous avez installé sur $name a cessé de générer des rapports. Cela est probablement dû au fait qu'il a été supprimé par un logiciel de sécurité. Il est possible qu'un audit manuel des journaux de sécurité donne lieu à une enquête sur l'origine du renifleur.,Le renifleur de communications sur $name n'est plus opérationnel.,,,,,
+investigation_comm_sniffer,player_guilty_comm_sniffer,,,player_intel_always,Le renifleur de communication à $name remonte à vous,Un audit approfondi des journaux de sécurité sur $name a abouti à ce que vous soyez blâmé pour la faille de sécurité.,,,,,,
+,,,,,,,,,,,,
+# trade disruption reports,,,,,,,,,,,,
+trade_disruption,report_td,,,news,Le commerce a perturbé $onOrAt $market dans le système $marketSystem,Les flottes commerciales à destination ou en provenance du marché n'atteignent pas leur destination en nombre significatif. Le rapport désigne la piraterie ou la guerre comme étant les coupables les plus probables.,"Les prix devraient revenir à la normale d’ici deux mois.
+
+Les produits suivants sont concernés :
+$commodityRésumé
+
+Sélectionnez « tarifs » et passez à l'onglet Carte pour plus de détails.",,graphics/icons/markets/trade_disruption.png,prices,,
+trade_disruption,report_smuggling,,,news,Activité de contrebande $onOrAt $market dans le système $marketSystem,La situation sur le marché est devenue moins stable en raison des récentes activités de contrebande. Les autorités locales promettent une enquête approfondie.,Stabilité réduite de $smugglingPenalty.,,graphics/icons/markets/smuggling.png,,,
+trade_disruption,report_smuggling_player,,,news,Activité de contrebande $onOrAt $market dans le système $marketSystem,La situation sur le marché $onOrAt $ est devenue moins stable en raison des récentes activités de contrebande dans lesquelles vous avez été impliqué. Les autorités locales promettent une enquête approfondie.,"Stabilité réduite de $smugglingPenalty.
+
+Vos actions récentes ont contribué à cette situation.",,graphics/icons/markets/smuggling.png,,,
+,,,,,,,,,,,,
+# rep changes,,,,,,,,,,,,
+rep_tracker,trade_rep,,,player_intel_always,La position aux côtés de $theFaction s'est améliorée grâce au commerce,Il y a des indications que votre récente activité de trading sur $marketList a été notée par $theFaction.,,,,nomap,,
+rep_tracker,smuggling_rep,,,player_intel_always,Le soutien de $theFaction a été réduit en raison de la contrebande,"Il semble que votre récente transaction au marché noir avec $marketList ait été notée par $theFaction. Il n’existe aucune preuve concluante, mais il est clair que vos actions sont scrutées de plus près qu’auparavant.",,,,nomap,,
+rep_tracker,trade_negative,,,player_intel_always,La position avec $theHostileFaction a été réduite en raison du commerce avec $pickedMarket,"Il y a des indications que votre transaction avec $pickedMarket était suffisamment importante pour être remarquée par $theHostileFaction, qui est hostile à $theFaction.","Votre activité initialement signalée par les parties de $hostileMarket.
+
+La contrebande (le cas échéant) a eu moins d’impact que le libre-échange.",,,nomap,,
+#rep_tracker,trade_no_change,,,player_intel_always,"Aux côtés de $theFaction, non affecté par le commerce","Votre récente activité commerciale avec $marketList, bien que notée par $theFaction, n'a conduit à aucun changement dans les relations.",La relation est arrivée à un point où le commerce ne l’influencera plus.,,,,,
+#rep_tracker,trade_no_change_negative,,,player_intel_always,"Aux côtés de $theHostileFaction, non affecté par le commerce","Votre récente activité commerciale avec $pickedMarket, bien que notée par les autorités hostiles de $hostileMarket, n'a conduit à aucun changement dans les relations.",La relation est arrivée à un point où le commerce ne l’influencera plus.,,,,,
+rep_tracker,trade_xp_gain,,,player_intel_always,Expérience commerciale,Vos récentes transactions vous ont donné un nouvel aperçu du fonctionnement de l’économie. Vous avez également noué de précieux contacts.,Vous avez gagné $xpGagnez de l'expérience.,,,nomap,,
+rep_tracker,rep_decay_positive,,,player_intel_always,Rester avec $theFaction amélioré,"Les affronts et offenses mineurs sont oubliés après un certain temps, s'ils ne sont pas renforcés par un modèle de comportement récent.",,,,nomap,,
+#rep_tracker,rep_decay_negative,,,player_intel_always,Debout avec $theFaction réduit,"Les affronts mineurs et les petites faveurs sont rapidement oubliés, s'ils ne sont pas renforcés par un modèle de comportement récent.",,,,,,
+rep_tracker,battle_rep_positive,,,secure_comm,Rester avec $theFaction amélioré,Votre bataille avec $otherFleetName a été notée par $theFaction à $market.,La nouvelle de la bataille a été initialement reprise par les parties sur $market.,,,nomap,,
+rep_tracker,comm_access_granted,,,player_intel_always,Accès aux communications sécurisées de $Faction accordé,"En raison de votre bonne réputation ($factionStanding), les autorités $onOrAt $market vous ont accordé l'accès aux canaux de communication internes de $Faction.",,,,nomap,,
+rep_tracker,comm_access_revoked,,,player_intel_always,Accès aux communications sécurisées de $Faction révoqué,"En raison de votre statut réduit ($factionStanding), votre accès aux canaux de communication internes de $Faction a été révoqué.",,,,nomap,,
+,,,,,,,,,,,,
+# trade info updates (prices etc),,,,,,,,,,,,
+trade_info,prices_market,,,player_intel_always,Mise à jour du prix du marché $,L'exploitation du réseau de communication local permet d'obtenir des informations sur certains produits dont les prix sont inhabituels sur le marché.,$liste de prix,,,prices,,
+trade_info,prices_local,,,player_intel_always,Mise à jour des prix locaux,L'exploitation du trafic de communication local et d'autres sources de données disponibles a permis d'obtenir des données sur les prix de certains produits sur les marchés du système.,$liste de prix,,,prices,,
+trade_info,prices_sniffer,,,player_intel_always,Mise à jour des prix,Une microrafale provenant du renifleur de communication de $relayName contient des informations sur les prix de certaines matières premières dans le système stellaire $fromSystem.,$liste de prix,,,prices,,
+trade_info,prices_remote,,,player_intel_always,Mise à jour des prix,L'exploitation du trafic de communication local et d'autres sources de données disponibles a permis d'obtenir des données sur les prix de certains produits dans le système stellaire $fromSystem.,$liste de prix,,,prices,,
+,,,,,,,,,,,,
+# customs inspection,,,,,,,,,,,,
+customs_inspection,player_evaded,,,player_intel_always,Contrôle douanier,"Votre évasion du contrôle douanier, bien que réussie à court terme, a été remarquée par les autorités de la faction $.",,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+# system-wide bounty reports,,,,,,,,,,,,
+system_bounty,likely,,,player_intel,Prime susceptible d'être offerte par $market,"Selon certaines rumeurs, les autorités de $onOrAt $market envisageraient d'afficher une prime sur toutes les flottes hostiles à $theMarketFaction.",#VALUE!,,,,,
+system_bounty,start,,,news,Prime offerte par $market,"Les autorités de $onOrAt $market, lassées des attaques constantes contre le transport maritime, des perturbations commerciales et de l'état général de quasi-guerre, ont mis à prix toutes les flottes hostiles à $theMarketFaction.","Durera $daysLeft jours.
+
+Le montant payé dépend des navires détruits (à partir de crédits $baseBounty pour une frégate), la position auprès de $theMarketFaction peut également s'améliorer.
+
+Les vaisseaux doivent être détruits ou désactivés dans le système ou à proximité dans l'hyperespace.
+
+Paiement effectué via un canal de communication sécurisé via un relais de communication à proximité.
+",,,,,
+system_bounty,start_with_faction,,,news,Prime offerte par $market,"Les autorités de $onOrAt $market, lassées des attaques constantes contre le transport maritime, des perturbations commerciales et de l'état général de quasi-guerre, ont mis à prix toutes les flottes hostiles à $theMarketFaction.","Durera $daysLeft jours.
+
+Probablement déclenché par l'activité de $enemyFaction dans le système.
+
+Le montant payé dépend des navires détruits (à partir de crédits $baseBounty pour une frégate), la position auprès de $theMarketFaction peut également s'améliorer.
+
+Les vaisseaux doivent être détruits ou désactivés dans le système ou à proximité dans l'hyperespace.
+
+Paiement effectué via un canal de communication sécurisé via un relais de communication à proximité.
+",,,,,
+system_bounty,bounty_payment,,,secure_comm,Paiement de la prime depuis $market : crédits $bountyCredits,Le message contient une pièce jointe cryptée contenant un paiement de crédits $bountyCredits.,"$bountyCredits crédits gagnés.
+
+$market continuera à offrir la prime pour $daysLeft day(s).",,graphics/icons/intel/gain_credits.png,nomap,,
+system_bounty,bounty_payment_share,,,secure_comm,Paiement de la prime depuis $market : crédits $bountyCredits,"Le message contient une pièce jointe cryptée qui contient votre part de la prime, qui s'élève à des crédits $bountyCredits.","$bountyCredits crédits gagnés.
+
+$market continuera à offrir la prime pour $daysLeft day(s).",,graphics/icons/intel/gain_credits.png,nomap,,
+system_bounty,bounty_no_payment,,,player_intel_always,Évaluation concernant la prime du $market,Le message contient un rapport de renseignement interne concernant la prime proposée par $market.,"Aucun paiement de prime car $theMarketFaction est $factionStanding envers vous.
+
+$market continuera à offrir la prime pour $daysLeft day(s).",,,nomap,,
+system_bounty,bounty_no_rep,,,player_intel_always,Évaluation concernant la prime du $market,Le message contient un rapport de renseignement interne concernant la prime proposée par $market.,"Aucun paiement de prime ni amélioration de la relation car $theMarketFaction est $factionStanding envers vous.
+
+$market continuera à offrir la prime pour $daysLeft day(s).",,,nomap,,
+system_bounty,end,,,news,Prime offerte par $market over,Les autorités $onOrAt $market ont déclaré que la période de prime était officiellement terminée.,Aucun paiement de prime ne sera plus effectué.,,,nomap,,
+,,,,,,,,,,,,
+comm_sniffer,report,,,player_comm_sniffer,Données du renifleur de communication,"Une pièce jointe contient un vidage de divers trafics de messages, à la fois générés par l'homme et automatisés, transitant par le système $system.",Améliore les chances de prédire avec précision les événements futurs dans le système stellaire.,,,,,
+,,,,,,,,,,,,
+# person bounty reports,,,,,,,,,,,,
+person_bounty,start_pirate,,,news,Prime de crédit $bountyCredits publiée par $theFaction sur $targetName,"Les autorités de la $Faction $onOrAt $market ont affiché une prime pour avoir traduit en justice $targetName, un pirate notoire.","Récompense en crédit BountyCredits $, délivrée via un canal de communication sécurisé via un relais de communication à proximité.
+
+Offert pour $daysLeft jours.
+
+$targetDesc
+
+Selon la rumeur, il s'agirait de $hideoutCrumb.",,,,,
+person_bounty,start_deserter,,,news,Prime de crédit $bountyCredits publiée par $theFaction sur $targetName,"Les autorités de la $Faction $onOrAt $market ont affiché une prime pour avoir traduit en justice $targetName, reconnu coupable de désertion.","Récompense en crédit $bountyCredits délivrée via un canal de communication sécurisé via un relais de communication à proximité.
+
+Offert pour $daysLeft jours.
+
+$targetDesc
+
+Selon la rumeur, il s'agirait de $hideoutCrumb.",,,,,
+person_bounty,bounty_payment_end,,,secure_comm,Paiement de la prime de $theFaction : crédits $bountyCredits,Le message contient une pièce jointe cryptée contenant un paiement de crédits $bountyCredits pour traduire $targetName en justice.,$bountyCredits crédits gagnés.,,graphics/icons/intel/gain_credits.png,nomap,,
+person_bounty,bounty_payment_share_end,,,secure_comm,Paiement de la prime de $theFaction : crédits $bountyCredits,"Le message contient une pièce jointe cryptée qui contient votre part de la prime, correspondant aux crédits $bountyCredits, pour avoir traduit $targetName en justice.",$bountyCredits crédits gagnés.,,graphics/icons/intel/gain_credits.png,nomap,,
+person_bounty,bounty_no_payment_end,,,player_intel_always,Évaluation concernant la prime $targetName,Le message contient un rapport de renseignement interne concernant la prime sur $targetName.,Aucun paiement de prime car $theFaction est $factionStanding envers vous.,,,nomap,,
+person_bounty,bounty_no_rep_end,,,player_intel_always,Évaluation concernant la prime $targetName,Le message contient un rapport de renseignement interne concernant la prime sur $targetName.,Pas de paiement de prime ni d'amélioration des relations car $theFaction est $factionStanding envers vous.,,,nomap,,
+person_bounty,other_end,,,news,Prime sur $targetName terminée,Les rapports indiquent que $targetName a été tué dans un incident sans rapport avec la publication de la prime.,La prime n'est plus proposée.,,,nomap,,
+person_bounty,expire_end,,,news,Prime sur $targetName terminée,Les autorités de la $Faction $onOrAt $market ont retiré la prime précédemment publiée sur $targetName.,La prime n'est plus proposée.,,,nomap,,
+,,,,,,,,,,,,
+# test mission,,,,,,,,,,,,
+test_mission,start,,,player_intel_always,Mission test acceptée,"Vous avez accepté une mission test. Félicitations, je suppose.",Aucune récompense n’est probable.,,,,,
+test_mission,end_success,,,player_intel_always,Mission de test terminée avec succès,Mission de test terminée avec succès.,,,,,,
+test_mission,end_failure,,,player_intel_always,"Mission de test terminée, échec",La mission de test a échoué.,,,,,,
+,,,,,,,,,,,,
+# market procurement mission,,,,,,,,,,,,
+market_procurement,posting,,,posting,Acquérez des unités de quantité $ de marchandises $ et livrez-les au marché $ dans les jours restants pour un paiement de crédits de récompense $.,Contactez $contactDesc $contactName à $market pour finaliser la livraison.,"Le paiement de base est de $ par unité par unité.
+
+$market est contrôlé par les autorités de $marketFaction.
+
+$contactName $contactDetail.",,,no_system_prefix,,
+market_procurement,posting_bonus,,,posting,Acquérez des unités de quantité $ de marchandises $ et livrez-les au marché $ dans les jours restants pour un paiement de crédits de récompense $. Bonus $bonusCredits pour une livraison dans les $bonusDays.,Contactez $contactDesc $contactName à $market pour finaliser la livraison.,"Le paiement de base est de $ par unité par unité.
+
+$market est contrôlé par les autorités de $marketFaction.
+
+$contactName $contactDetail.",,,,,
+market_procurement,accept,,,secure_comm,Accepté : acquérir des unités de quantité $ de marchandise $ et les livrer au marché $,"Acquérir des unités de quantité $ de marchandises $ et les livrer au marché $.
+
+Contactez $contactDesc $contactName à $market pour finaliser la livraison.","$daysLeft pour terminer la livraison.
+
+Récompense $rewardCredits ($parunité par unité).
+
+$market est contrôlé par les autorités de $marketFaction.
+
+$contactName $contactDetail.",,,"no_system_prefix, important",,
+market_procurement,accept_bonus,,,secure_comm,Accepté : acquérir des unités de quantité $ de marchandise $ et les livrer au marché $,"Acquérir des unités de quantité $ de marchandises $ et les livrer au marché $.
+
+Contactez $contactDesc $contactName à $market pour finaliser la livraison.","$daysLeft pour terminer la livraison.
+
+Récompense $rewardCredits ($parunité par unité).
+
+Bonus $bonusCredits s’il est livré dans les $bonusDays.
+
+$market est contrôlé par les autorités de $marketFaction.
+
+$contactName $contactDetail.",,,"no_system_prefix, important",,
+market_procurement,success,,,player_intel_always,Terminé : $unité(s) de quantité de $produit livré au $marché,Mission terminée avec succès.,$récompense réelle gagnée.,,,"no_system_prefix, important",,
+market_procurement,success_bonus,,,player_intel_always,Terminé : $unité(s) de quantité de $produit livré au $marché,Mission terminée avec succès.,"$récompense réelle gagnée, y compris le bonus $bonusCredits.",,,"no_system_prefix, important",,
+market_procurement,failure,,,player_intel_always,Échec : échec de la livraison à temps des unités de quantité $ de marchandise $ au marché $,Mission échouée – délai non respecté.,,,,"no_system_prefix, important",,
+,,,,,,,,,,,,
+# analyze entity mission,,,,,,,,,,,,
+analyze_entity,posting,,,posting,Exécutez le package de capteurs fourni sur $entityName dans $systemName dans les $daysLeft pour le paiement $rewardCredits.,La mission sera considérée comme terminée et le paiement sera effectué immédiatement après l'exécution du package de capteurs.,$emplacementIndice,,,no_system_prefix,,
+analyze_entity,accept,,,secure_comm,Accepté : exécutez le package de capteurs sur $entityName dans $systemName,"La récompense $rewardCredits doit être complétée dans les $daysLeft.
+
+La mission sera considérée comme terminée et le paiement sera effectué immédiatement après l'exécution du package de capteurs.",$emplacementIndice,,,"no_system_prefix, important",,
+analyze_entity,failure,,,player_intel_always,Échec : exécutez le package de capteurs sur $entityName dans $systemName,Mission échouée – délai non respecté.,,,,"no_system_prefix, important",,
+analyze_entity,success,,,player_intel_always,Terminé : exécutez le package de capteurs sur $entityName dans $systemName,Mission terminée avec succès.,$rewardCrédits gagnés.,,,"no_system_prefix, important",,
+,,,,,,,,,,,,
+# survey planet mission,,,,,,,,,,,,
+survey_planet,posting,,,posting,Exécutez une enquête complète sur $planetName dans $systemName dans les $daysLeft pour le paiement de $rewardCredits.,La mission sera considérée comme terminée et le paiement sera affiché immédiatement après la fin de l'enquête.,$enquêteInfo,,,no_system_prefix,,
+survey_planet,accept,,,secure_comm,Accepté : lancez une enquête complète sur $planetName dans $systemName,"La récompense $rewardCredits doit être complétée dans les $daysLeft.
+
+La mission sera considérée comme terminée et le paiement sera affiché immédiatement après la fin de l'enquête.",$enquêteInfo,,,"no_system_prefix, important",,
+survey_planet,failure,,,player_intel_always,Échec : lancer une enquête complète sur $planetName dans $systemName,Mission échouée – délai non respecté.,,,,"no_system_prefix, important",,
+survey_planet,success,,,player_intel_always,Terminé : lancez une enquête complète sur $planetName dans $systemName,Mission terminée avec succès.,$rewardCrédits gagnés.,,,"no_system_prefix, important",,
+,,,,,,,,,,,,
+# tutorial mission,,,,,,,,,,,,
+tutorial_mission,start,,,secure_comm,Communication sécurisée depuis Ancyra,"Vous recevez une communication à faisceau étroit du principal monde habité du système, Ancyra.
+
+Le message est bref et vous demande de vous y rendre et de contacter $mainContactPost $mainContactName dès que possible.",,,,"no_system_prefix, important",,
+tutorial_mission,sneak_start,,,player_intel_always,Acquérir des données de points de saut à Derinkuyu,"Contactez $dataContactName à la station minière de Derinkuyu pour acquérir les lectures brutes des points de saut.
+
+Le contact doit être établi avec le transpondeur éteint car les mineurs de Derinkuyu sont devenus pirates et votre flotte sera attaquée autrement.",Utilisez « Go Dark » pour éviter d'être détecté et « Emergency Burn » pour vous enfuir si vous êtes vu.,,,"no_system_prefix, important",,
+tutorial_mission,sneak_end,,,player_intel_always,Retourner à Ancyra avec les données,Retournez à Ancyra et contactez $mainContactPost $mainContactLastName pour fournir les données du point de saut.,,,,"no_system_prefix, important",,
+tutorial_mission,salvage_core_start,,,player_intel_always,Récupérer un noyau d'IA d'un abandon,"L’analyse des données de point de saut nécessite un AI Core.
+
+Il y a une sonde d'enquête de l'ère Domain en dehors de l'orbite de Pontus. S'il est récupéré, il est susceptible de produire un noyau gamma AI, qui devrait être suffisant pour la tâche.","Allez à Pontus, dirigez-vous vers la ceinture d’astéroïdes, puis utilisez un Active Sensor Burst pour localiser la sonde. 
+
+Approchez-le et récupérez-le, ou réduisez-le en ferraille et récupérez-le dans le champ de débris résultant.
+
+Il est probable que vous deviez d’abord surmonter certaines défenses automatisées.",,,"no_system_prefix, important",,
+tutorial_mission,salvage_core_end,,,player_intel_always,Retournez à Ancyra avec le noyau IA,Retournez à Ancyra et contactez $mainContactPost $mainContactLastName pour livrer le noyau de l'IA.,,,,"no_system_prefix, important",,
+tutorial_mission,ship_recovery_start,,,player_intel_always,Récupérer des navires abandonnés autour de Tetra,"Rendez-vous au cimetière de navires autour de Tetra et récupérez autant de navires que possible.
+
+Apportez un équipage supplémentaire pour équiper les navires récupérés, ainsi que des fournitures supplémentaires pour les aider à rétablir leur préparation au combat.",,,,"no_system_prefix, important",,
+tutorial_mission,ship_recovery_end,,,player_intel_always,Retournez à Ancyra et équipez les navires récupérés.,Retournez à $mainContactPost $mainContactLastName à Ancyra pour obtenir de l'aide pour équiper les navires récupérés en armes.,,,,"no_system_prefix, important",,
+tutorial_mission,stabilize_jump_point,,,player_intel_always,Stabiliser le point de saut du système interne,"Utilisez la séquence hyperonde produite par le noyau de l'IA pour stabiliser le point de saut du système interne.
+
+Vous devrez d'abord vaincre les pirates qui le gardent.",,,,"no_system_prefix, important",,
+tutorial_mission,stabilize_jump_point_done,,,player_intel_always,Retournez à Ancyra et signalez votre succès.,"La connexion de Galatia avec l'hyperespace a été rétablie et les flottes commerciales peuvent à nouveau entrer et sortir du système.
+
+La direction de Derinkuyu sera sûrement bientôt renversée par des mineurs de base désireux de se mettre à nouveau du bon côté de la loi.",,,,"no_system_prefix, important",,
+tutorial_mission,deliver_message,,,player_intel_always,Remettre le rapport à Jangala dans le système Corvus,"$MainContactRank $mainContactLastName vous a chargé de fournir un rapport détaillant les événements récents au $jangalaContactPost $jangalaContactLastName de Jangala.
+
+Assurez-vous d'avoir suffisamment de carburant pour réussir le voyage.",,,,"no_system_prefix, important",,
+tutorial_mission,end,,,player_intel_always,Rapport livré,Vous avez remis le rapport et votre position auprès de l’hégémonie a considérablement augmenté.,,,,"no_system_prefix, important",,
+,,,,,,,,,,,,
+# faction commission,,,,,,,,,,,,
+faction_commission,posting,,,posting,"Requis pour la plupart des achats militaires sur le marché, et paie une petite prime sur les ennemis de la faction, qui deviendront hostiles au titulaire de la commission.","La prime commence à $baseBounty en crédits pour une frégate ennemie et augmente pour les navires plus gros.
+
+Sera annulé si la réputation du titulaire de la commission auprès de $theFaction descend en dessous de la neutralité.",,,,important,,
+faction_commission,accept,,,secure_comm,$Commission de faction acceptée,"Requis pour la plupart des achats militaires sur le marché, et paie une petite prime sur les ennemis de la faction, qui deviendront hostiles au titulaire de la commission.","La prime commence à $baseBounty en crédits pour une frégate ennemie et augmente pour les navires plus gros.
+
+Sera annulé si la réputation du titulaire de la commission auprès de $theFaction descend en dessous de la neutralité.
+",,,important,,
+faction_commission,become_hostile,,,secure_comm,$otherFaction est désormais hostile,"En raison de votre acceptation d'une commission avec $theFaction, $theOtherFactionLong est désormais hostile à votre égard.",,,,"important, nomap",,
+faction_commission,bounty_payment,,,secure_comm,Paiement depuis $theFaction : crédits $bountyCredits,"Le message contient une pièce jointe cryptée contenant un paiement de crédits $bountyCredits pour combattre les ennemis de $theFaction.
+
+Il fait référence aux données du journal de vol de votre récente bataille contre $enemyDesc.",$bountyCredits crédits gagnés.,,graphics/icons/intel/gain_credits.png,nomap,,
+faction_commission,annul,,,secure_comm,Commission avec $theFaction annulée,Le message est un communiqué officiel de $theFaction qui annule votre commission en raison d'un manque de bonne réputation.,Peut accepter une autre commission lorsque la situation s’améliore.,,,"important, nomap",,
+faction_commission,rep_drop_hostile,,,secure_comm,Avis de $Faction concernant les hostilités avec $theOtherFaction,"Le message est un communiqué officiel de $theFaction, remettant en question vos prétendues hostilités avec $theOtherFaction et vous rappelant, en termes forts, que $theOtherFaction $otherFactionIsOrAne sont pas un ennemi de $theFaction.",Vos actions peuvent provoquer des hostilités ouvertes entre $theFaction et $theOtherFaction.,,,nomap,,
+,,,,,,,,,,,,
+# faction hostility,,,,,,,,,,,,
+faction_hostility,warning,,,secure_comm,Hostilités imminentes entre $theOneFaction et $theTwoFaction,Vous recevez un avertissement de $theCommissionFaction indiquant que l'état général de guerre froide avec $theOtherFaction est presque certain de céder la place à des hostilités ouvertes dans quelques semaines au maximum.,"$TheOtherFaction vous deviendra hostile, car vous détenez une commission $commissionFaction.
+
+Votre position auprès de $theOtherFaction sera en grande partie rétablie une fois les hostilités terminées.",,graphics/icons/intel/faction_conflict.png,important,,
+faction_hostility,start,,,news,Hostilités ouvertes entre $theOneFaction et $theTwoFaction,"L’état général de guerre froide entre $theOneFaction et $theTwoFaction a cédé la place à des hostilités ouvertes.
+
+Cependant, on ne s’attend pas à des actions majeures de la flotte ou à des attaques contre des centres de population, et la plupart des experts prédisent qu’une sorte d’accord de paix sera conclu au cours d’un cycle.",,,graphics/icons/intel/faction_conflict.png,important,,
+faction_hostility,end,,,news,Armistice entre $theOneFaction et $theTwoFaction,"Un accord a été conclu par des voies détournées, les hostilités ouvertes entre $theOneFaction et $theTwoFaction ont cessé et les échanges commerciaux normaux ont repris.",Les hostilités ouvertes sont terminées.,,graphics/icons/intel/faction_peace.png,important,,
+,,,,,,,,,,,,
+# civil disorder,,,,,,,,,,,,
+civil_disorder,possible1,,,player_intel,Troubles civils possibles $onOrAt $market,Certains indicateurs indiquent que des troubles civils sont susceptibles de survenir sur le marché d'ici quelques semaines.,Diminution de la production $onOrAt $market.,,,,,
+civil_disorder,possible2,,,news,Troubles civils possibles $onOrAt $market,"Un intellectuel de premier plan, $onOrAt $market, a publié une déclaration critiquant $rulingfaction et a été arrêté peu de temps après. Les responsables de $rulingfaction n’ont fait aucun commentaire.",Augmentation des signes de troubles civils sur le marché.,,,,,
+civil_disorder,possible3,,,news,Troubles civils possibles $onOrAt $market,"Une manifestation a eu lieu devant le siège de l'administration locale de $rulingFaction, $onOrAt $market. La foule a été dispersée par les autorités, faisant plusieurs morts.",Augmentation des signes de troubles civils sur le marché.,,,,,various factions may comment on this event
+civil_disorder,possible3,,HOSTILE,"tritachyon_public,
+hegemony_public",Troubles civils possibles $onOrAt $market,$faction a publié une déclaration condamnant la répression inutilement sévère de $rulingFaction contre les manifestations $onOrAt $market.,Augmentation des signes de troubles civils sur le marché.,,,,,possible reaction to the above event
+civil_disorder,possible3,,FRIENDLY,"tritachyon_public,
+hegemony_public",Troubles civils possibles $onOrAt $market,"$faction a publié une déclaration condamnant les manifestations qui ont lieu $onOrAt $market, exhortant leurs dirigeants à se rendre aux responsables de $rulingFaction.",Augmentation des signes de troubles civils sur le marché.,,,,,possible reaction to the above event
+civil_disorder,possible4,,,news,Troubles civils possibles $onOrAt $market,Les autorités locales de la faction $onOrAt $market ont annoncé que plusieurs agitateurs antigouvernementaux de premier plan avaient été arrêtés.,Augmentation des signes de troubles civils sur le marché.,,,,,
+civil_disorder,likely,,,player_intel,Troubles civils probables $onOrAt $market,Certains indicateurs indiquent que des troubles civils se produiront presque certainement sur le marché d'ici quelques semaines.,Diminution de la production $onOrAt $market.,,,,,
+civil_disorder,start1,,,news,Troubles civils $onOrAt $market,Une grève générale a éclaté $onOrAt $market. Les responsables de $rulingfaction ont publié une déclaration condamnant les actions de quelques dirigeants antigouvernementaux.,Diminution de la production $onOrAt $market.,,,,,
+civil_disorder,start2,,,news,Troubles civils $onOrAt $market,Une série d'attentats à la bombe visant les installations du parti au pouvoir sur le marché a eu lieu. Un communiqué officiel a été publié promettant que les auteurs seraient traduits en justice.,Diminution de la production $onOrAt $market.,,,,,
+civil_disorder,start3,,,news,Troubles civils $onOrAt $market,Des actes de sabotage ont paralysé de grands centres de production sur le marché.,Diminution de la production $onOrAt $market.,,,,,
+civil_disorder,ending1,,,news,,La loi martiale a été déclarée $onOrAt $market pour réprimer les troubles civils.,La production devrait bientôt revenir à des niveaux normaux.,,,,,
+civil_disorder,ending2,,,news,,Les responsables de la faction dirigeante $onOrAt $market ont annoncé des raids dans plusieurs refuges de l'opposition. La fusillade qui en a résulté a fait de nombreuses victimes.,La production devrait bientôt revenir à des niveaux normaux.,,,,,
+civil_disorder,ending3,,,news,,Des Marines ont été déployés dans les principaux centres de population du marché pour réprimer les troubles civils.,La production devrait bientôt revenir à des niveaux normaux.,,,,,
+civil_disorder,ending4,,,news,,Des pourparlers ont été ouverts entre $rulingFaction et les dirigeants de l'opposition $onOrAt $market.,La production devrait bientôt revenir à des niveaux normaux.,,,,,
+civil_disorder,end1,,,news,,La loi martiale a été levée avec le retour de la paix sur le marché.,La production est revenue à des niveaux normaux.,,,,,
+civil_disorder,end2,,,news,,Les Marines ont été retirés des principaux centres de population alors que la paix revient sur le marché.,La production est revenue à des niveaux normaux.,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+sindria_terrorists,likely,,,sindrian_diktat_internal,Possibles attaques terroristes sur Sindria,Les renseignements indiquent que les terroristes ont obtenu une cache d'armes illégales et ont l'intention de les utiliser contre des cibles gouvernementales.,Diminution probable de la production sur Sindria.,,,,,precursor to terrorist attacks
+sindria_terrorists,start1,,,news,Attaques terroristes contre Sindria,Un monument public commémorant les victoires militaires du Lion a été détruit lors d'un attentat à la bombe à minuit qui a été rapidement condamné par les responsables du Diktat. Un couvre-feu temporaire a été imposé dans les principales villes-ruches et les patrouilles de sécurité ont augmenté.,Diminution de la production sur Sindria.,,,,,start option 1
+sindria_terrorists,start2,,,news,Attaques terroristes contre Sindria,"Plusieurs bombes ont été trouvées et désamorcées dans les principaux centres industriels sindriens. Partout sur la planète, les installations ont été fermées et recherchées à la recherche de bombes. Un responsable du Diktat a annoncé la constitution d'un groupe de travail spécial pour retrouver les auteurs.",Diminution de la production sur Sindria.,,,,,start option 2
+sindria_terrorists,start3,,,news,Attaques terroristes contre Sindria,Une série d'attentats à la bombe visant les bureaux de l'administration du Diktat a eu lieu à Sindria. Un communiqué publié par les responsables du Diktat a promis que les terroristes seraient traduits en justice rapidement.,Diminution de la production sur Sindria.,,,,,start option 3
+sindria_terrorists,continued1,,,news,Attaques terroristes contre Sindria,Plusieurs explosions ont secoué les niveaux supérieurs des principales villes-ruches ; Les dirigeants terroristes ont publié une déclaration holovide affirmant que les bombardements se poursuivront jusqu'à ce que certains prisonniers politiques détenus à Cruor soient libérés par les autorités du Diktat.,Diminution de la production sur Sindria.,,,,,"may proceed through zero or more of the ""continued"" event stages before reaching one of the concluding stages."
+sindria_terrorists,continued2,,,news,Attaques terroristes contre Sindria,"Des terroristes armés ont pris d'assaut aujourd'hui un centre de recrutement naval Diktat. Tous ont été tués dans un échange de tirs qui a fait rage pendant des heures, faisant de nombreuses victimes civiles. Les responsables du Diktat ont condamné cet acte lâche.",Diminution de la production sur Sindria.,,,,,""""
+sindria_terrorists,concluding1,,,news,Fin des attaques terroristes sur Sindria,Un refuge terroriste a été pris d'assaut par les forces de sécurité mais retrouvé abandonné. Les responsables de Diktat Intelligence affirment avoir trouvé des preuves qui aideront à traquer les terroristes.,La production à Sindria reviendra bientôt à des niveaux normaux.,,,,,
+sindria_terrorists,concluding2,,,news,Fin des attaques terroristes sur Sindria,Un homme de main terroriste a été capturé et interrogé par les renseignements du Diktat. Les responsables affirment que la chasse aux dirigeants terroristes touche à sa fin.,La production à Sindria reviendra bientôt à des niveaux normaux.,,,,,
+sindria_terrorists,end1,,,news,Les attaques terroristes contre Sindria ont cessé.,"Plusieurs refuges terroristes ont été perquisitionnés par les forces de sécurité du Diktat lors d'une opération soudaine tôt le matin. Des munitions mal stockées ont explosé, affirment les responsables, ne laissant aucun survivant.",Les niveaux de production reviennent à la normale à Sindria.,,,,,
+sindria_terrorists,end2,,,news,Les attaques terroristes contre Sindria ont cessé.,"Les forces de sécurité du Diktat ont capturé des dirigeants terroristes qui tentaient de fuir Sindria. Les responsables ont déclaré qu'après leur interpellation par Diktat Intelligence, il y aurait un procès rapide et une exécution publique.",Les niveaux de production reviennent à la normale à Sindria.,,,,,"Like a Cardassian novel, everyone arrested in Sindria is guilty - the only question remains: of what?"

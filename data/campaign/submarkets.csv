@@ -1,0 +1,23 @@
+id,name,faction,desc,script,icon,order
+open_market,"Marché
+Libre",,"Le marché libre. Seuls les biens légaux peuvent être échangés ici et les transactions sont soumises à des droits de douane. Plus de biens sont disponibles lorsque la stabilité est élevée.
+
+Vendre suffisamment d’un produit résoudra temporairement une pénurie.",com.fs.starfarer.api.impl.campaign.submarkets.OpenMarketPlugin,,0
+black_market,"Marché
+Noir",pirates,"Le marché noir. Tout et n'importe quoi peut être acheté ou vendu, et il n'y a pas de droits de douane. Plus de biens sont disponibles lorsque la stabilité est faible.
+
+Vendre suffisamment d’un produit résoudra temporairement une pénurie.
+
+Les transactions sur le marché noir peuvent attirer l'attention des autorités, entraînant des analyses de cargaison et une réduction de la position des factions, à moins que les transactions ne soient effectuées avec le transpondeur éteint.
+
+S'engager dans un commerce légitime comme « couverture » réduit également la probabilité d'attirer l'attention des autorités.",com.fs.starfarer.api.impl.campaign.submarkets.BlackMarketPlugin,graphics/factions/black_market.png,999
+storage,Stockage,player,Espace de stockage pour les navires et les marchandises.,com.fs.starfarer.api.impl.campaign.submarkets.StoragePlugin,graphics/factions/storage.png,1000
+generic_military,,,"Faites du commerce avec la base militaire de $theFaction.
+
+Les armes et autres équipements militaires peuvent être achetés et vendus ici même s'ils sont illégaux sur le marché libre. Une commission et une meilleure réputation auprès de $theFaction permettent de disposer d'un matériel de meilleure qualité.
+
+Achètera des produits illégaux localement dans le cadre d’un programme de rachat sans poser de questions.
+
+Vendre suffisamment d’un produit résoudra temporairement une pénurie.",com.fs.starfarer.api.impl.campaign.submarkets.MilitarySubmarketPlugin,,100
+local_resources,"Stocks
+de Ressources",,,com.fs.starfarer.api.impl.campaign.submarkets.LocalResourcesSubmarketPlugin,,200
